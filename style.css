@@ -1,0 +1,74 @@
+body {
+  background-image: url(background.jpg);
+  background-color: grey;
+  font-family: Georgia;
+  font-size: 1.5em;
+  line-height: 2;
+  margin: auto;
+  text-align: center;
+}
+
+h1{
+  background-color: #FF9100;
+  width: 15%;
+  text-align: center;
+  margin: auto;
+  color: white;
+
+}
+
+
+h2
+{
+  text-align: center;
+  font-family: Georgia, cursive;
+  font-size: 2.5em;
+  text-decoration: underline;
+  color: white;
+}
+
+
+p{
+  text-align: center;
+  color: white;
+}
+
+
+ul, li{
+
+  color: green;
+  text-decoration: none;
+}
+div {
+  border: 5px
+  padding 12px;
+}
+.conainer {
+
+  width: 500
+  margin: 0 auto;
+}
+
+
+.card-white {
+  background: grey;
+  padding: 10px;
+  border: 1px solid lightgrey;
+}
+
+.img-circle {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
